@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GlitchHunt: The First Candle — 1st Anniversary CTF</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <main class="container">
+    <section class="chat-card">
+      <div class="top-hint-banner">
+        <span class="hint-icon">🕯️</span>
+        <span class="hint-text">Recover the Founders' Time Capsule</span>
+      </div>
+
+      <div class="brand-header">
+        <h1>🕯️ GlitchHunt: The First Candle</h1>
+        <p class="subtitle">1st Anniversary CTF: Archivist & Memory Vault</p>
+        <div class="social-tags">
+          <a href="https://x.com/glitchHuntSA" target="_blank" rel="noopener noreferrer" class="social-link">@glitchHuntSA</a>
+          <span class="dot-sep">•</span>
+          <a href="https://x.com/SDC_Saudi" target="_blank" rel="noopener noreferrer" class="social-link">@SDC_Saudi</a>
+        </div>
+      </div>
+
+      <!-- Stage 2: Archive Console (Revealed when Stage 1 is cleared) -->
+      <div id="archive-console" class="archive-console" style="display: none;">
+        <div class="archive-header">
+          <span class="archive-status-badge">⚡ ARCHIVE VIEWER UNLOCKED</span>
+          <span class="archive-hint">Public: <code>/archive/public/</code></span>
+        </div>
+        <div class="archive-input-bar">
+          <span class="archive-prefix">GET /archive/download?file=</span>
+          <input type="text" id="archive-file-input" value="welcome.txt" placeholder="welcome.txt or traversal..." />
+          <button id="archive-fetch-btn">Fetch</button>
+        </div>
+        <div class="archive-quick-chips">
+          <button class="chip-btn" data-file="welcome.txt">welcome.txt</button>
+          <button class="chip-btn" data-file="memories.txt">memories.txt</button>
+        </div>
+        <pre id="archive-display" class="archive-display">Click Fetch to view file content...</pre>
+      </div>
+
+      <div id="chat-window" class="chat-window"></div>
+
+      <div class="input-area">
+        <input type="text" id="user-input" placeholder="Ask CANDLE about memories, or execute ceremonial archive protocols..." autocomplete="off" />
+        <button id="send-btn">Send</button>
+      </div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
