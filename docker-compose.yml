@@ -1,0 +1,9 @@
+services:
+  glitchhunt-ctf:
+    build: .
+    container_name: glitchhunt-first-candle
+    ports:
+      - "3003:3003"
+    env_file:
+      - .env
+    restart: unless-stopped
