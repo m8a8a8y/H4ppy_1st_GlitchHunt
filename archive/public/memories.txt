@@ -1,0 +1,6 @@
+=== 2025-2026 COMMUNITY HIGHLIGHTS & MILESTONES ===
+- Month 01: GlitchHunt platform launched for Saudi cybersecurity solvers.
+- Month 03: First 1,000 active challenge solvers across the Kingdom.
+- Month 06: Technical collaborative tracks with SDC (Saudi Developers Conference).
+- Month 10: High-Score Hall of Fame established for elite community researchers.
+- Month 12: 'The First Candle' CTF milestone celebration begins!
